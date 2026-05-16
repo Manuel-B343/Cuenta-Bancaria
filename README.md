@@ -1,6 +1,6 @@
-# Cuenta Bancaria — Nuevas Funcionalidades (POO)
+# Cuenta Bancaria — Nuevas Funcionalidades
 
-Proyecto Java que amplía una cuenta bancaria aplicando principios de **Programación Orientada a Objetos**.
+
 
 ---
 
@@ -41,17 +41,6 @@ src/
 - Aplica un interés mensual configurable sobre el saldo actual.
 - Aplica un cargo fijo mensual con validación de saldo.
 - Permite ejecutar el cierre mensual completo (interés + cargo).
-
----
-
-## Principios POO aplicados
-
-| Principio              | Aplicación en el proyecto |
-|------------------------|---------------------------|
-| **Encapsulación**      | Todos los campos de `Cuenta` son `private`. El saldo solo se modifica mediante métodos controlados. |
-| **Responsabilidad Única** | Cada servicio realiza exactamente una función. `Cuenta` no contiene lógica de negocio compleja. |
-| **Abierto/Cerrado**    | Se agregan nuevas funcionalidades creando nuevos servicios, sin modificar `Cuenta`. |
-| **Inversión de Dependencias** | Los servicios implementan `IServicioBancario`, dependiendo de una abstracción. |
 
 ---
 
