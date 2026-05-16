@@ -51,7 +51,7 @@ src/
 javac -d out src/exception/*.java src/model/*.java src/service/*.java src/Main.java
 
 # Ejecutar
-java -cp out Main
+Main.java
 ```
 
 ---
